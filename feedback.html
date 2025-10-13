@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #e0ffe0;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+  }
+  
+  .container {
+    margin-top: 15px;
+    margin-left: 30%;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: darkgreen;
+    background: darkgreen;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  }
+  
+  form label {
+    margin-top: 1rem;
+    display: block;
+    color: #555;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  
+  form button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    width: 100%;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background:green;
+  }
+  
+  .success-message {
+    margin-top: 1rem;
+    color: green;
+    font-size: 0.95rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      padding: 1rem;
+    }
+  }
+  
+    </style>
+</head>
+<body>
+    <headr>
+      <img src="cep.png" width="60px" height="60px" alt="">
+        <h1>ConnectingPaws</h1>        <nav>
+            <ul>
+                <ul><a href="home.html" onclick="loadPage('home')">Home</a></ul>
+                <ul><a href="about.html" onclick="loadPage('about')">About Us</a></ul>
+                <ul><a href="guide.html" onclick="loadPage('guide')">First Aid for Animals</a></ul>
+                <ul><a href="centres.html" onclick="loadPage('centers')">Local Shelters & Rescuers</a></ul>
+                <ul><a href="laws.html" onclick="loadPage('laws')"> Animal Protection Laws</a></ul>
+                <ul><a href="feedback.html" onclick="loadPage('feedback')">Feedback</a></ul>
+            </ul>
+        </nav>
+    </headr>
+        <div class="container">
+          <form action="https://formsubmit.co/anyaporwal18@gmail.com" method="POST">
+            <h2>Feedback Form</h2>
+        
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+        
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your email" required />
+        
+              <label for="feedback">Feedback</label>
+              <textarea id="feedback" placeholder="Your feedback" ></textarea>
+        
+              <label for = "suggestion">Suggestion / Queries</label>
+              <textarea id="suggestion/Queries" placeholder="Any suggestion or Queries " ></textarea>
+              <input type="hidden" name="_next" value="http://127.0.0.1:5501/feedback.html">
+              <button type="submit">Submit</button>
+              <p class="success-message" id="success-message"></p>
+            </form>
+          </div>
+          <script src="feedback.js"></script>
+          <footer>
+            <p>&copy; 2025 ConnectingPaws All rights reserved.</p>
+          </footer>
+</body>
+</html>

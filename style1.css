@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  padding: 15px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #2c5530;
+}
+
+
+main{
+  padding: 15px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #2c5530;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  margin-right:40px ;
+}
+
+h4 a{
+  color: #2c5530;
+  
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #b2dfb2;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #2c5530;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideIn 2s ease-out forwards;
+}
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.section {
+  padding: 50px 40px;
+  border-bottom: 1px solid #b2dfb2;
+  font-size: 18px;
+
+}
+
+.section h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #3e8e41;
+  
+}
+
+section p{
+  font-size: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background-color: #f8fff8;
+  padding: 20px;
+  border: 1px solid #b2dfb2;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(60, 100, 60, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+section a:hover{
+  color:#3e8e41;
+}
