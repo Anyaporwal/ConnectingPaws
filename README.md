@@ -40,6 +40,11 @@ It acts as your **go-to platform** for finding first aid guides, local rescue ce
    open index.html
    ```
 ---
+
+## 📜 License
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+---
 ##
 "Together, we can make the world a safer place for every living being."
 🐾 Visit 🌎 ConnectingPaws to learn, rescue, and protect.
