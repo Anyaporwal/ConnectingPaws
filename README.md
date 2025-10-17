@@ -2,7 +2,7 @@
 
 🌐 **Live Website:** [https://connectingpaws.netlify.app/](https://connectingpaws.netlify.app/)
 
-**ConnectingPaws** is a responsive and informative website built to help protect, rescue, and rehabilitate injured wildlife.  
+**ConnectingPaws** is an informative website built to help protect, rescue, and rehabilitate injured wildlife.  
 It acts as your **go-to platform** for finding first aid guides, local rescue centers, animal protection laws, and awareness resources — all in one place.
 
 ---
@@ -15,7 +15,6 @@ It acts as your **go-to platform** for finding first aid guides, local rescue ce
 - 🏡 **Local Shelters & Rescuers:** Directory of local shelters and rescue teams across India.  
 - ⚖️ **Animal Protection Laws:** Legal information about animal rights and protection acts.  
 - 💬 **Feedback Section:** Visitors can share experiences, feedback, or rescue stories.  
-- 📱 **Responsive Design:** Fully optimized for desktop, tablet, and mobile screens.  
 - 🎥 **Visual Awareness:** Features wildlife images and awareness videos to inspire compassion.
 
 ---
