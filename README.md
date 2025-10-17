@@ -2,9 +2,21 @@
 
 🌐 **Live Website:** [https://connectingpaws.netlify.app/](https://connectingpaws.netlify.app/)
 
-**ConnectingPaws** is an informative website built to help protect, rescue, and rehabilitate injured wildlife.  
-It acts as your **go-to platform** for finding first aid guides, local rescue centers, animal protection laws, and awareness resources — all in one place.
+**ConnectingPaws** is a community engagement project developed as part of the **4th Semester – Community Engagement Course** curriculum.
 
+The platform aims to raise awareness about animal welfare by providing guidance for rescuing and rehabilitating injured wildlife.  
+It brings together **information, compassion, and technology** to make wildlife help accessible to everyone.
+
+---
+
+## 🎯 Project Objective
+
+To promote **community responsibility and animal welfare awareness** through a digital platform that:
+- Educates people on **first aid for animals**
+- Connects users with **local shelters and rescuers**
+- Spreads awareness about **animal protection laws**
+- Encourages citizens to take part in **wildlife protection initiatives**
+  
 ---
 
 ## 🌿 Features
