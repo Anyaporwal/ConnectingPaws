@@ -116,3 +116,84 @@ section p{
 section a:hover{
   color:#3e8e41;
 }
+
+@media (max-width: 992px) {
+  header h1 {
+    font-size: 24px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .section {
+    padding: 40px 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .hero {
+    padding: 30px 20px;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+    transform: translateX(0); 
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .section h3 {
+    font-size: 24px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .section {
+    padding: 30px 15px;
+  }
+}

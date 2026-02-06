@@ -1,5 +1,3 @@
-
-
 body {
     background-color: #e0ffe0;
     color: #333;
@@ -175,4 +173,76 @@ h1 {
     header {
         padding: 1.5rem 0;
     }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 95%;
+  }
+
+  .laws-container {
+    gap: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 1.5rem;
+  }
+
+  .law-card-body {
+    padding: 1.2rem;
+  }
+
+  .filter-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .intro {
+    padding: 1.2rem;
+  }
+
+  .law-card-header {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  .law-card-body {
+    padding: 1rem;
+  }
+
+  .penalty {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .text-box {
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .filter-btn {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
 }
